@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* outline: 1px solid red; */
+}
+.K_CONT{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container {
+    background-color: #74C69D;
+    padding-bottom: 30px;
+}
+
+.cont {
+    padding: 35px 130px;
+}
+
+header {
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_header img {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: aliceblue;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+
+header .menu {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 25px;
+    color: #fff;
+    display: none;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 150px;
+    justify-content: center;
+
+}
+
+.left_hero {
+    width: 40%;
+}
+
+.left_hero h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 15px;
+    color: #fff;
+
+}
+
+.left_hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.left_hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+
+
+
+.left_hero h5 {
+    width: 170px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    padding: 13px 47px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+}
+.right_hero{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.right_hero img{
+    width: 100%;
+
+}
+.container2{
+    
+    padding: 60px 140px;
+    text-align: center;
+}
+
+.partners{
+    width: 411px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.partners h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 16px;
+}
+
+.partners p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;margin-bottom: 16px;
+}
+
+.frame{
+    width: 1200px;
+    display: flex;
+    gap: 80px;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 30px;
+
+
+}
+
+.frame img{
+    width: 153px;
+}
+
+button{
+    width: 170px;
+    
+    background-color: #000;
+    padding: 13px 29px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container3{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 50px;
+    padding-left: 150px;
+}
+
+.left_group {
+    width: 50%;
+}
+
+.left_group img{
+    width: 100%;
+}
+
+.right_group{
+    width: 60%;
+    padding: 50px 100px;
+}
+
+.right_group h1{
+    font-style: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 16px;
+}
+
+.right_group p{
+    font-style: 18px;
+    grid-row: 400;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.div{
+    box-shadow: 0px 3px 3px 3px rgb(196, 193, 193);
+    text-align: center;
+    padding: 25px;
+}
+
+.div img{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 50%;
+
+}
+
+.container5{
+    background-color: #74C69D;
+    margin-top: 50px;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon i{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.year{
+    color: #fff;
+    margin-right: 55px;
+}
+
+
+
+
+
+@media (max-width:375px) {
+    .container {
+        width: 374px;
+        padding: 15px;
+        margin: 0;
+        padding-top: 0;
+        background-color: #74C69D;
+    }
+
+    .cont {
+        margin: 0;
+        padding: 20px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+
+
+
+    .left_header img {
+        width: 120px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .menu {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .right_hero img {
+        
+    }
+
+    .left_hero {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+}
